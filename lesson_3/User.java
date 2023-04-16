@@ -26,7 +26,7 @@ public class User {
     @Override
     public String toString() {
         return "<" + lastName + ">" + "<" + firstName + ">" + "<" + middleName + ">" + "<" + dateBirth + ">" + "<"
-                + phoneNumber + ">" + "<" + gender + ">";
+                + phoneNumber + ">" + "<" + gender + ">" + "\n";
     }
 
     public String getFirstName() {

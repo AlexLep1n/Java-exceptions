@@ -27,10 +27,12 @@
 
 public class Main {
     public static void main(String[] args) {
-        Model model = new Model("01.11.2020 9217773322 m Aleskeev Maksim Ivanovich");
-        var a = model.parseString();
-        User b = model.checkUserData(a);
-        System.out.println(b);
-        model.fileCreator();
+        // Model model = new Model("01.11.2020 9217773322 m Aleskeev Maksim Ivanovich");
+        // var a = model.parseString();
+        // User b = model.checkUserData(a);
+        // System.out.println(b);
+        // model.fileCreator();
+        Presenter presenter = new Presenter();
+        presenter.run();
     }
 }
